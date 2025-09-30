@@ -129,13 +129,13 @@ local aa = {
             Window = nil,
             WindowFrame = nil,
             Unloaded = false,
-            Theme = "Dark",
+            Theme = "Darker",
             DialogOpen = false,
             UseAcrylic = false,
             Acrylic = false,
             Transparency = true,
             MinimizeKeybind = nil,
-            MinimizeKey = Enum.KeyCode.LeftControl,
+            MinimizeKey = Enum.KeyCode.H,
             GUI = w
         }
         function x.SafeCallback(y, z, ...)
@@ -5552,3 +5552,4 @@ do
         end
     end
 end
+
